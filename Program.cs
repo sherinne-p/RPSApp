@@ -16,6 +16,8 @@ namespace RockPaperScissorsApp
 
             Console.WriteLine("v1.0");
 
+            Console.WriteLine("Good luck, player!");
+
             // Ask the user for their choice
             Console.Write("Enter your choice (rock, paper, or scissors): ");
             string playerChoice = Console.ReadLine().ToLower();
